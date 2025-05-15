@@ -1,3 +1,9 @@
 python-dotenv
 pandas
 numpy
+pymongo
+certifi
+
+#-e .  
+#refers to the setup.py file in the current directory. 
+#basically when you run pip install -r requirements.txt, it will also install the package in the current directory.
