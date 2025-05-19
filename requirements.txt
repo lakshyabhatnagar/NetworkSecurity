@@ -4,6 +4,7 @@ numpy
 pymongo
 pymongo[srv]==3.6
 certifi
+scikit-learn
 
 #-e .  
 #refers to the setup.py file in the current directory. 
