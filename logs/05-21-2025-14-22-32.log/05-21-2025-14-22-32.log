@@ -1,0 +1,18 @@
+[2025-05-21 14:22:34,907 ] 11 root - INFO - Starting data ingestion
+[2025-05-21 14:22:39,042 ] 43 root - INFO - Data exported to feature store at Artifacts/05_21_2025_14_22_34/data_ingestion/feature_store/phisingData.csv
+[2025-05-21 14:22:39,051 ] 51 root - INFO - Train and test data split with ratio 0.2
+[2025-05-21 14:22:39,249 ] 55 root - INFO - Train and test data exported to Artifacts/05_21_2025_14_22_34/data_ingestion/ingested/train.csv and Artifacts/05_21_2025_14_22_34/data_ingestion/ingested/test.csv
+[2025-05-21 14:22:39,253 ] 19 root - INFO - Data ingestion completed successfully
+[2025-05-21 14:22:39,274 ] 24 root - INFO - Initiate the data validation
+[2025-05-21 14:22:39,274 ] 63 root - INFO - Starting data validation
+[2025-05-21 14:22:39,274 ] 64 root - INFO - Data validation config: <networksecurity.entity.config_entity.DataValidationConfig object at 0x7f1a53a10040>
+[2025-05-21 14:22:39,274 ] 65 root - INFO - Data ingestion artifact: DataIngestionArtifact(train_file_path='Artifacts/05_21_2025_14_22_34/data_ingestion/ingested/train.csv', test_file_path='Artifacts/05_21_2025_14_22_34/data_ingestion/ingested/test.csv')
+[2025-05-21 14:22:39,387 ] 31 root - INFO - Required Number of columns in the DataFrame: 2
+[2025-05-21 14:22:39,387 ] 32 root - INFO - Number of columns in the Dataframe: 32
+[2025-05-21 14:22:39,387 ] 31 root - INFO - Required Number of columns in the DataFrame: 2
+[2025-05-21 14:22:39,387 ] 32 root - INFO - Number of columns in the Dataframe: 32
+[2025-05-21 14:22:39,833 ] 26 root - INFO - Data validation completed
+[2025-05-21 14:22:39,834 ] 32 root - INFO - Initiate the data transformation
+[2025-05-21 14:22:39,834 ] 38 root - INFO - Data Transformation started
+[2025-05-21 14:22:39,917 ] 28 root - INFO - Creating data transformation pipeline
+[2025-05-21 14:22:39,917 ] 31 root - INFO - Imputer object created
